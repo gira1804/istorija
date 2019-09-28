@@ -9,3 +9,47 @@ p.tpb:nth-child(even) {background:#f2ece7; margin: 2px; color: black; font-size:
 p.s1    {background: #f2ece7; margin: 2px; color: black; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted}
 .nav {padding: 0px; margin: 0px}
 .pfooter {background: #ffffff; height: 64px; text-align: center; margin 16px; color: gray; font-size: 18px}
+
+a[href$=".pdf/file"]:before {
+  	content: ' ' url('./file_icons/pdf.png') ' ';
+	color: firebrick;
+}
+
+a[href$=".ppt/file"]:before {
+  	content: url('./file_icons/ppt.png') ' ';
+	color: darkorange;
+}
+
+a[href$=".pptx/file"]:before {
+  	content: url('./file_icons/ppt.png') ' ';
+	color: darkorange;
+}
+
+a[href$=".doc/file"]:before {
+  	content: url('./file_icons/doc.png') ' ';
+	color:  blueviolet;
+}
+
+a[href$=".docx/file"]:before {
+  	content: url('./file_icons/doc.png') ' ';
+	color: blueviolet;
+}
+
+a[href$=".rar/file"]:before {
+  	content: url('./file_icons/rar.png') ' ';
+	color: forestgreen;
+}
+
+a[href$=".zip/file"]:before {
+  	content: url('./file_icons/zip.png') ' ';
+	color: forestgreen;
+}
+
+a[href$=".torrent/file"]:before {
+  	content: url('./file_icons/tpb.png') ' ';
+	color: forestgreen;
+}
+a[href$="announce/file"]:before {
+  	content: url('./file_icons/mag.gif') ' ';
+	color: forestgreen;
+}
