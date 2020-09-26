@@ -8,7 +8,7 @@ p.tpb:nth-child(even) {background:#f2ece7; margin: 2px; color: black; font-size:
 p.s1    {background:#d2b9a6;   margin: 2px; color: black; font-size: 16px;}
 p.s2    {background: #f2ece7; margin: 2px; margin-top: 0px; color: black; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted; font-weight: bold}
 .nav {padding: 0px; margin: 0px}
-.pfooter {background: #ffffff; height: 64px; text-align: center; margin 16px; color: gray; font-size: 18px}
+.pfooter {background: #ffffff; height: 64px; text-align: center; margin: 16px; color: gray; font-size: 18px, padding: 16em}
 
 @media screen and (max-width: 870px) {
     .stojan {
