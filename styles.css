@@ -1,14 +1,89 @@
-body font-family: Cambria,Georgia,serif; background:#transparent; font-family: "Segoe UI Emoji"}
-h1 {background:#f6f1ee; border-bottom:1px solid; border-bottom-color:#d2b9a6;   margin-top:auto}
-h3 {background:#d2b9a6;  margin-bottom:auto}
-a { border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none}
-a.top { border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none; background:transparent; margin: 2px; color: green; font-size: 16px;}
-p.tpb {background:#f6f1ee; margin: 2px; color: black; font-size: 16px;}
-p.tpb:nth-child(even) {background:#f2ece7; margin: 2px; color: black; font-size: 16px;}
-p.s1    {background:#d2b9a6;   margin: 2px; color: black; font-size: 16px;}
-p.s2    {background: #f2ece7; margin: 2px; margin-top: 0px; color: black; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted; font-weight: bold}
+body {font-family: Cambria,Georgia,serif;  background:#transparent; padding: 0; margin: 0}
+div.header {background:#ffffff; width: 100%;}
+div.content {background: #ffffff; padding: 5px; padding-left: 1em; padding-right: 1em; padding-bottom:1em; margin: 5px; border: 2px solid #cccccc; border-radius: 2em}
+div.navbar {margin: 1em; margin-top: 0em}
+h1 {background:#f6f1ee; border-bottom:1px solid; border-bottom-color:#d2b9a6;   margin-top:auto;}
+h2 {font-size: 16px;}
+h3 {border-bottom: 3px solid #cccccc; background: #dddddd; margin-bottom:auto; border-radius: 1em 1em 0px 0px}
+a {border-bottom-style:none; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none}
+
+a:link {
+  color: #543756;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #543756;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  background-color: #ae73b1;
+  text-decoration: none;
+}
+
+a:active {
+  color: #543756;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a[href$=".pdf/file"]:link {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:visited {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:active {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".pdf/file"]:before {content:  url('./file_icons/pdf.png');}
+
+a[href$=".ppt/file"]:link{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:visited{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:active{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".ppt/file"]:before {content: url('./file_icons/ppt.png')}
+
+a[href$=".pptx/file"]:link{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:visited{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:active{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".pptx/file"]:before {content: url('./file_icons/ppt.png');}
+
+a[href$=".doc/file"]:link{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:visited{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:active{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".doc/file"]:before {content: url('./file_icons/doc.png');}
+
+a[href$=".docx/file"]:link{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:visited{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:active{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".docx/file"]:before {content: url('./file_icons/doc.png');}
+
+a[href$=".rar/file"]:link{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:visited{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:active{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".rar/file"]:before {content: url('./file_icons/rar.png');}
+
+a[href$=".zip/file"]:link{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:visited{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:active{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:hover {color: #000000; background-color: #ae73b1; text-decoration: none;}
+a[href$=".zip/file"]:before {content: url('./file_icons/zip.png');}
+
+
+
+a.top {border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none; background:transparent; margin: 2px; color: green; font-size: 16px;}
+p.tpb {border-bottom: 1px solid #cccccc; margin: 2px; color: black; font-size: 1em;}
+p.tpb:nth-child(even) { margin: 2px; color: black;}
+p.s1    {border-bottom: 1px solid #cccccc; background:#dddddd; margin: 2px; color: black; font-size: 16px;}
+p.s2    {border-bottom: 1px solid #cccccc; background:#dddddd; margin: 2px; margin-top: 0px; color: black; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted; font-weight: bold}
 .nav {padding: 0px; margin: 0px}
-.pfooter {background: #ffffff; height: 64px; text-align: center; margin: 16px; color: gray; font-size: 18px, padding: 16em}
+.pfooter {background: #ffffff; height: 64px; text-align: center; margin: 16px; color: gray; font-size: 18px, padding: 16em;}
+.pfooter::before {content: "Igor Janošević, 2021."}
+.hlogo {margin: 1em}
 
 @media screen and (max-width: 870px) {
     .stojan {
