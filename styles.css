@@ -7,6 +7,7 @@ h2 {font-size: 16px;}
 h3 {border-bottom: 3px solid #cccccc; background: #dddddd; margin-bottom:auto; border-radius: 0.5em 0.5em 0px 0px}
 
 a {white-space: nowrap;}
+a.main {white-space:warp;}
 
 a:link {
   color: #543756;
