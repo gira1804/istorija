@@ -40,10 +40,10 @@ a:active {
   text-decoration: underline;
 }
 
-a[href$=".pdf/file"]:link {background-color: #ffdddd; border: 1px solid #ccaaaa;}
-a[href$=".pdf/file"]:visited {background-color: #ffdddd; border: 1px solid #ccaaaa;}
-a[href$=".pdf/file"]:active {background-color: #ffdddd; border: 1px solid #ccaaaa;}
-a[href$=".pdf/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".pdf/file"]:link  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:visited  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:active  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:hover  {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
 a[href$=".pdf/file"]:before {content:  url('./file_icons/pdf.png');}
 
 a[href$=".ppt/file"]:link{background-color: #ffddcc; border: 1px solid #ccaaaa;}
