@@ -16,29 +16,16 @@ h3 {border-bottom: 3px solid #555555; background: #777777; margin-top: 0.5em; ma
 a {white-space: nowrap;}
 a.main {white-space:normal;}
 
-a:link {
-  color: #543756;
-  background-color: transparent;
-  text-decoration: none;
-}
+a:link {color: #543756; background-color: transparent; text-decoration: none;}
+a:visited {color: #543756; background-color: transparent; text-decoration: none;}
+a:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a:active {color: #543756; background-color: transparent; text-decoration: underline;}
 
-a:visited {
-  color: #543756;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffffff;
-  background-color: #ae73b1;
-  text-decoration: none;
-}
-
-a:active {
-  color: #543756;
-  background-color: transparent;
-  text-decoration: underline;
-}
+a.veza:link  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:visited  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:active  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:hover  {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a.veza:before {content:  url('./file_icons/html.png');}
 
 a[href$=".pdf/file"]:link  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
 a[href$=".pdf/file"]:visited  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
@@ -70,23 +57,30 @@ a[href$=".docx/file"]:active{background-color: #ddddff; border: 1px solid #ccaaa
 a[href$=".docx/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
 a[href$=".docx/file"]:before {content: url('./file_icons/doc.png');}
 
-a[href$=".rar/file"]:link{background-color: #ddffdd; border: 1px solid #ccaaaa;}
-a[href$=".rar/file"]:visited{background-color: #ddffdd; border: 1px solid #ccaaaa;}
-a[href$=".rar/file"]:active{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:link{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:visited{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:active{background-color: #ccffcc; border: 1px solid #ccaaaa;}
 a[href$=".rar/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
 a[href$=".rar/file"]:before {content: url('./file_icons/rar.png');}
 
-a[href$=".zip/file"]:link{background-color: #ddffdd; border: 1px solid #ccaaaa;}
-a[href$=".zip/file"]:visited{background-color: #ddffdd; border: 1px solid #ccaaaa;}
-a[href$=".zip/file"]:active{background-color: #ddffdd; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:link{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:visited{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:active{background-color: #ccffcc; border: 1px solid #ccaaaa;}
 a[href$=".zip/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
 a[href$=".zip/file"]:before {content: url('./file_icons/zip.png');}
+
+a[href$="announce"]:link{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:visited{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:active{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$="announce"]:before {content: url('./file_icons/mag.gif');}
 
 
 
 a.top {border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none; background:transparent; margin: 2px; color: green; font-size: 16px;}
-p.tpb {margin: 2px; color: black; font-size: 1em;  background: #ffffff}
+p.tpb {margin: 2px; color: black; font-size: 1em;  background: #f0f0f0}
 p.tpb:nth-child(even) { margin: 2px; color: black; background: #dfdfdf}
+p.tp1 { margin: 2px; color: black; background: #dcdcdc}
 p.s1    {background:#aaaaaa; margin: 2px; color: #ffffff; font-size: 16px; padding-left: 0.5em; padding-right: 0.5em}
 p.s2    {background:#aaaaaa; margin: 2px; margin-top: 0px; color: #ffffff; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted; font-weight: bold; padding-left: 0.5em; padding-right: 0.5em}
 .nav {padding: 0px; margin: 0px}
