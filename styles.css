@@ -8,6 +8,9 @@ body {font-family: Cambria,Georgia,serif;  background:#transparent; padding: 0; 
 
 div.header {background:#ffffff; width: 100%;}
 div.content {background: #ffffff; padding: 5px; padding-left: 0.5em; padding-right: 0.5em; padding-bottom:0.5em; margin: 5px; border: 2px solid #cccccc; border-radius: 1em}
+
+
+
 div.navbar {margin: 1em; margin-top: 0em}
 h1 {background:#f6f1ee; border-bottom:1px solid; border-bottom-color:#d2b9a6;   margin-top:auto;}
 h2 {font-size: 16px;}
