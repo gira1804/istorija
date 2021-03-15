@@ -78,7 +78,7 @@ a[href$="announce"]:active{background-color: #77ff77; border: 1px solid #ccaaaa;
 a[href$="announce"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
 a[href$="announce"]:before {content: url('./file_icons/mag.gif');}
 
-
+div.paznja { border-style:dotted; border-width: 1px; border-color: #ff0000; background: #ffcccc; padding: 1em; border-radius: 0.5em}
 
 a.top {border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none; background:transparent; margin: 2px; color: green; font-size: 16px;}
 p.tpb {margin: 2px; color: black; font-size: 1em;  background: #f0f0f0}
